@@ -1,0 +1,43 @@
+# ── Environment ──────────────────────────────────────────────────
+.env
+*.env.local
+
+# ── Java / Maven ─────────────────────────────────────────────────
+**/target/
+**/.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+*.class
+*.jar
+*.war
+*.ear
+*.log
+.DS_Store
+
+# ── Node / React ─────────────────────────────────────────────────
+**/node_modules/
+**/dist/
+**/build/
+**/.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ── IDEs ─────────────────────────────────────────────────────────
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ── Docker ───────────────────────────────────────────────────────
+docker-compose.override.yml
+
+# ── OS ───────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
