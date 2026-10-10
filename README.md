@@ -25,7 +25,7 @@ A full-stack web application to track your entire job search — from wishlist t
 - **Java 21** — virtual threads ready
 - **Spring Boot 3.2** — web, security, data JPA
 - **Spring Security + JWT** — stateless auth (jjwt 0.12)
-- **PostgreSQL** — primary database (H2 for tests)
+- **MySQL** — primary database (H2 for tests)
 - **Hibernate / JPA** — ORM with auditing
 - **Lombok** — boilerplate reduction
 - **JUnit 5 + Mockito** — unit & integration tests
