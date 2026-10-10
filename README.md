@@ -70,7 +70,7 @@ docker-compose up --build
 |---|---|
 | Frontend | http://localhost:3000 |
 | Backend API | http://localhost:8080/api |
-| PostgreSQL | localhost:5432 |
+| MySQL | localhost:5432 |
 
 ### 3. Local development (without Docker)
 
@@ -204,8 +204,8 @@ WISHLIST → APPLIED → PHONE_SCREEN → TECHNICAL_INTERVIEW
 
 | Variable | Default | Description |
 |---|---|---|
-| `DB_USERNAME` | `postgres` | PostgreSQL username |
-| `DB_PASSWORD` | `postgres` | PostgreSQL password |
+| `DB_USERNAME` | `Mysql` | MySQL username |
+| `DB_PASSWORD` | `Mysql` | MySQL password |
 | `JWT_SECRET` | *(insecure default)* | JWT signing secret — **change in production** |
 | `CORS_ORIGINS` | `http://localhost:3000` | Comma-separated allowed origins |
 
